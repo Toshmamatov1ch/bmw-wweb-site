@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .my-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
